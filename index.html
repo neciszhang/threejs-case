@@ -1,0 +1,91 @@
+<html lang="en">
+
+    <head>
+        <title>Necis</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0" />
+        <link rel="stylesheet" href="css/site.css" />
+        <script src="lib/createjs.min.js"></script>
+        <script src="lib/three.min.js"></script>
+        <script src="lib/jquery.min.js"></script>
+        <script src="lib/TweenMax.min.js"></script>
+        <!-- <script src="http://res.wx.qq.com/open/js/jweixin-1.2.0.js"></script> -->
+        <script>
+        // var imagePath = 'http://st.180shanghai.cn/mideafridge/';
+            // h5URL = 'http://st.180shanghai.cn/mideafridge';
+        // var imagePath='http://tbwa.mynecis.cn/three/';
+        // var imagePath='http://localhost:8888/';
+        </script>
+    </head>
+
+    <body>
+        <section class="index">
+            <div id="r_go"><img src="assets/images/btn_go.png"></div>
+        </section>
+        <section class="rule">
+            <div id="r_mobile">
+                <div id="r_click"><img src="assets/images/rule_click.png"></div>
+            </div>
+            <div id="r_rule"><img src="assets/images/alert_rule.png"></div>
+        </section>
+        <section class="status">
+            <div><img src="assets/images/status_count.png"></div>
+            <div><span>0</span>/<span>25</span></div>
+            <div><img id="CARD" src="assets/images/ale_count3.png"></div>
+        </section>
+        <section class="card">
+            <div id="c_feature"><img src=""></div>
+            <div id="c_snow"><span></span></div>
+        </section>
+        <section class="ending">
+            <div><img src="assets/images/ale_collect.png"></div>
+            <div><img src="assets/images/btn_restart.png"><img src="assets/images/btn_tojd.png"></div>
+            <div>0</div>
+        </section>
+        <div id="LOGO"></div>
+        <div id="BTN1"></div>
+        <div id="BTN2"></div>
+        <div id="D3"></div>
+        <div id="ROT">
+            <div class="ico"><b></b></div>
+            <p>为了更好的体验，请使用竖屏浏览</p>
+        </div>
+        </div>
+        <audio src="assets/bgm.mp3" crossorigin="anonymous" id="bgm-music" preload="auto" loop></audio>
+        <script src="script/site.js"></script>
+        <script src="script/main.js?v4"></script>
+        <!--tracking-->
+        <!-- <script async src="https://www.googletagmanager.com/gtag/js?id=UA-108707668-1"></script>
+        <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+        gtag('config', 'UA-108707668-1');
+        /*gtag('config', 'UA-108707668-1', {
+            'user_id': 'USER_ID'
+        });*/ //userid
+
+        function trackEvent(name, category, label) {
+            gtag('event', name, {
+                'event_category': category,
+                'event_label': label,
+            });
+        }
+
+        function trackEvent(name, category, label, val) {
+            gtag('event', name, {
+                'event_category': category,
+                'event_label': label,
+                'value': val
+            });
+        }
+        </script> -->
+        <script type="text/javascript">
+        function trackEvent(name, category, label, val) {
+            
+        }
+        </script>
+    </body>
+
+    </html>

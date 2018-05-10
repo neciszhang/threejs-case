@@ -1,0 +1,425 @@
+#D3 {
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 0;
+}
+
+#LOGO {
+    width: 30vmin;
+    height: 30vmin;
+    right: 6vmin;
+    background-image: url(../assets/images/logo.gif);
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: absolute;
+    z-index: 100;
+}
+
+#BTN1 {
+    width: 10vmin;
+    height: 10vmin;
+    left: 2vmin;
+    top: 2vmin;
+    background-image: url(../assets/images/btn_bgm.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 100%;
+    position: absolute;
+    z-index: 100;
+}
+
+#BTN2 {
+    width: 19.3vmin;
+    height: 10vmin;
+    right: -20vmin;
+    top: 2vmin;
+    background-image: url(../assets/images/btn_view.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    z-index: 100;
+    display: none;
+}
+
+body {
+    margin: 0px;
+    background-color: #fff;
+    overflow: hidden;
+}
+/*total*/
+.rule, .card, .ending, .index {
+    height: 100vh;
+    width: 100vw;
+    display: none;
+    position: absolute;
+    left: 0;
+    top: 0;
+    text-align: center;
+}
+
+
+.rule, .card, .ending {
+    background-color: rgba(0,0, 0, 0.5);
+    z-index: 10000;
+}
+
+.index {
+    z-index: 10000;
+}
+
+    .index > div {
+        width: 100vw;
+        position: absolute;
+        text-align: center;
+        bottom: 12vh;
+        display: block;
+        transform: scale(0.01,0.01);
+        transform-origin: 50% 100% 0;
+    }
+
+    .index img {
+        width: 40vw;
+    }
+/*rule*/
+.rule > div {
+    position: absolute;
+    width: 100vw;
+    text-align: center;
+    display: block;
+    transform: scale(0.01,0.01);
+    transform-origin: 50% 100% 0;
+}
+
+    .rule > div:nth-child(1) {
+        top: 12vh;
+        left: 50%;
+        margin-left: -20.8335vh;
+        width: 41.665vh;
+        height: 50vh;
+        background-image: url(../assets/images/rule_qq.png);
+        background-repeat: no-repeat;
+        background-size: contain;
+    }
+
+.RULEQQANI {
+    animation: aniRuleQQ 1s 0.5s ease-in-out infinite alternate;
+    -webkit-animation: aniRuleQQ 1s 0.5s ease-in-out infinite alternate;
+    -ms-animation: aniRuleQQ 1s 0.5s ease-in-out infinite alternate;
+}
+
+@-webkit-keyframes aniRuleQQ {
+    0% {
+        background-position-y: 0%;
+    }
+
+    100% {
+        background-position-y: -2vh;
+    }
+}
+
+@keyframes aniRuleQQ {
+    0% {
+        background-position-y: 0%;
+    }
+
+    100% {
+        background-position-y: -2vh;
+    }
+}
+
+#r_click {
+    position: relative;
+    top: 12vh;
+    left: 5vh;
+    overflow: hidden;
+    width: 29.583vh;
+    height: 21vh;
+}
+
+    #r_click img {
+        position: relative;
+        width: 1192.8vh;
+        height: 21vh;
+    }
+
+.RULECLICKANI {
+    animation: aniRuleClick 2s steps(20) infinite;
+    -webkit-animation: aniRuleClick 2s steps(20) infinite;
+    -ms-animation: aniRuleClick 2s steps(20) infinite;
+}
+
+@-webkit-keyframes aniRuleClick {
+    0% {
+        left: 0;
+    }
+
+    100% {
+        left: -1192.8vh;
+    }
+}
+
+@keyframes aniRuleClick {
+    0% {
+        left: 0;
+    }
+
+    100% {
+        left: -1192.8vh;
+    }
+}
+
+
+.rule > div:nth-child(2) {
+    top: 45vh;
+    height: 40vh;
+    transform-origin: 50% 20% 0;
+}
+
+    .rule > div:nth-child(2) img {
+        width: 85vw;
+        height: 30vh;
+    }
+
+.rule > div:nth-child(3) {
+    top: 85vh;
+}
+
+    .rule > div:nth-child(3) img {
+        width: 40vw;
+        height: 8vh;
+    }
+
+
+
+/*card*/
+.card div {
+    width: 100vw;
+    text-align: center;
+    position: absolute;
+    height: 20vh;
+    bottom: calc(50vh - 10vh);
+    left: 0vw;
+    transform: scale(0.1,0.1);
+    transform-origin: 50% 50% 0;
+    z-index: 9000;
+}
+
+.card > div:nth-child(1) {
+    z-index: 1000;
+}
+
+    .card > div:nth-child(1) img {
+        width: 80vw;
+    }
+
+.card > div:nth-child(2) {
+    z-index: 1001;
+    bottom: 58vh;
+    left: -5vh;
+}
+
+    .card > div:nth-child(2) span {
+        display: block;
+        width: calc( 50vh * 1.3636);
+        height: 50vh;
+        background-image: url(../assets/images/snow.png);
+        background-repeat: no-repeat;
+        background-size: contain;
+    }
+
+/*ending*/
+.ending {
+    background: none;
+}
+
+    .ending > div {
+        width: 100%;
+        position: absolute;
+        text-align: center;
+    }
+
+        .ending > div:nth-child(1) {
+            top: 1vh;
+        }
+
+            .ending > div:nth-child(1) img {
+                width: 50vw;
+                height: 25vh;
+            }
+
+        .ending > div:nth-child(2) {
+            bottom: 1vh;
+        }
+
+            .ending > div:nth-child(2) img {
+                width: 46vw;
+                margin: 1vw;
+            }
+
+        .ending > div:nth-child(3) {
+            font-size: 4.5vw;
+            font-weight: 1200;
+            color: #df6e7e;
+            text-align: center;
+            top: 1vh;
+            left: 42vw;
+            width: 8vw;
+            padding: 18.3vh 0 0 0;
+        }
+
+.status {
+    width: 100%;
+    position: absolute;
+    display: none;
+    bottom: 12vh;
+    left: -100px;
+    z-index: 20000;
+}
+
+    .status > div {
+        width: 80%;
+        position: absolute;
+    }
+
+        .status > div:nth-child(1) {
+            z-index: 20001;
+            left: 8vw;
+            bottom: -9.5vh;
+        }
+
+            .status > div:nth-child(1) img {
+                width: 45vw;
+                height:6vh;
+            }
+
+        .status > div:nth-child(2) {
+            width: 52vw;
+            z-index: 20002;
+            font-size: 7vw;
+            font-style: oblique;
+            text-align: right;
+            color: #fff;
+            bottom: -8.5vh;
+        }
+
+            .status > div:nth-child(2) span {
+                width: 14vw;
+                z-index: 20003;
+                text-align: right;
+                color: #fff;
+                margin: 0.5vw;
+            }
+
+                .status > div:nth-child(2) span:nth-child(1) {
+                    color: #fff187;
+                }
+
+        .status > div:nth-child(3) {
+            width: 20vw;
+            height: 25vw;
+            z-index: 100000;
+            bottom: -12vh;
+            overflow: hidden;
+        }
+
+
+#CARD {
+    width: 400vw;
+    position: relative;
+}
+
+.CARDANI {
+    left: 0;
+    animation: aniCardGet 1s steps(20);
+    -webkit-animation: aniCardGet 1s steps(20);
+    -ms-animation: aniCardGet 1s steps(20);
+}
+
+@-webkit-keyframes aniCardGet {
+    0% {
+        left: 0;
+    }
+
+    100% {
+        left: -400vw;
+    }
+}
+
+@keyframes aniCardGet {
+    0% {
+        left: 0;
+    }
+
+    100% {
+        left: -400vw;
+    }
+}
+
+#ROT {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: #87d6db;
+    z-index: 50000;
+    display: none;
+}
+
+    #ROT p {
+        position: absolute;
+        width: 100%;
+        text-align: center;
+        top: 50%;
+        margin-top: 40px;
+        font-size: 12px;
+        color: #fff;
+        z-index: 10001;
+    }
+
+
+    #ROT .ico {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+        z-index: 10000;
+    }
+
+        #ROT .ico b {
+            display: block;
+            width: 40px;
+            height: 78px;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            margin-left: -20px;
+            margin-top: -49px;
+            background: url(../assets/images/ale_rotate.png) no-repeat;
+            background-size: contain;
+            animation: tophelpICO 1s 0.5s ease infinite alternate;
+            -webkit-animation: tophelpICO 1s 0.5s ease infinite alternate;
+            -ms-animation: tophelpICO 1s 0.5s ease infinite alternate;
+        }
+
+@-webkit-keyframes tophelpICO {
+    0% {
+        -webkit-transform: rotate(90deg);
+    }
+
+    70%, 100% {
+        -webkit-transform: rotate(0deg);
+    }
+}
+
+@keyframes tophelpICO {
+    0% {
+        transform: rotate(90deg);
+    }
+
+    70%, 100% {
+        transform: rotate(0deg);
+    }
+}

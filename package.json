@@ -1,0 +1,27 @@
+{
+  "name": "threejs-examples",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/neciszhang/threejs-case.git"
+  },
+  "keywords": [
+    "threejs",
+    "js",
+    "creatjs"
+  ],
+  "author": "Necis",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/neciszhang/threejs-case/issues"
+  },
+  "homepage": "https://github.com/neciszhang/threejs-case#readme"
+}
